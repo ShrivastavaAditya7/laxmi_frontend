@@ -9,7 +9,7 @@ import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, CartesianGrid,
   PieChart, Pie, Cell, LineChart, Line
 } from "recharts";
-import logoLT from "./Logo_LT.jpg";
+import logoLT from "./logo_LT.jpg";
 /* ================= CONFIG ================= */
 /* const API_BASE = "http://127.0.0.1:8000/api"; */
 const API_BASE = "https://laxmi-server.onrender.com/api";
