@@ -9,7 +9,7 @@ import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, CartesianGrid,
   PieChart, Pie, Cell, LineChart, Line
 } from "recharts";
-
+import logoLT from "./Logo_LT.jpg";
 /* ================= CONFIG ================= */
 /* const API_BASE = "http://127.0.0.1:8000/api"; */
 const API_BASE = "https://laxmi-server.onrender.com/api";
@@ -146,7 +146,7 @@ function LoginPage({ onLogin }) {
       <div style={{ width: 380, background: C.card, borderRadius: 14, padding: 30, boxShadow: "0 12px 40px rgba(0,0,0,0.25)" }}>
         <div style={{ textAlign: "center", marginBottom: 22 }}>
           <img 
-            src="src/logo_LT.jpg" 
+            src={logoLT} 
             alt="Laxmi Textiles Logo" 
             style={{ 
               width: 280, 
