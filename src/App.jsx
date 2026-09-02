@@ -11,7 +11,8 @@ import {
 } from "recharts";
 
 /* ================= CONFIG ================= */
-const API_BASE = "http://127.0.0.1:8000/api";
+/* const API_BASE = "http://127.0.0.1:8000/api"; */
+const API_BASE = "https://laxmi-server.onrender.com/api";
 
 /* ================= DESIGN TOKENS ================= */
 const C = {
