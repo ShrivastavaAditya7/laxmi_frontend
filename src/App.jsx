@@ -302,7 +302,7 @@ export default function App() {
       <div style={{ width: 232, background: C.indigo, color: "#F3EEE3", padding: "20px 14px", display: "flex", flexDirection: "column", gap: 4, position: "sticky", top: 0, height: "100vh" }}>
         <div style={{ padding: "0 8px 16px 8px" }}>
           <img 
-            src="src/logo_LT.jpg" 
+            src={logoLT} 
             alt="Laxmi Textiles Logo" 
             style={{ 
               width: 150, 
