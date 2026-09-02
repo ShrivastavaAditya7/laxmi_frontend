@@ -144,13 +144,24 @@ function LoginPage({ onLogin }) {
     <div style={{ minHeight: "100vh", background: C.indigo, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: sans, padding: 20 }}>
       <div style={{ width: 380, background: C.card, borderRadius: 14, padding: 30, boxShadow: "0 12px 40px rgba(0,0,0,0.25)" }}>
         <div style={{ textAlign: "center", marginBottom: 22 }}>
-          <div style={{ fontFamily: serif, fontSize: 24, fontWeight: 700, color: C.indigo }}>Laxmi Textiles</div>
-          <div style={{ fontSize: 11.5, color: C.slate, letterSpacing: 0.5, marginTop: 2 }}>STORE MANAGEMENT SYSTEM</div>
+          <img 
+            src="src/logo_LT.jpg" 
+            alt="Laxmi Textiles Logo" 
+            style={{ 
+              width: 280, 
+              height: 280, 
+              objectFit: "contain", 
+              margin: "0 auto 12px auto", 
+              display: "block" 
+            }} 
+          />
+          {/*<div style={{ fontFamily: serif, fontSize: 24, fontWeight: 700, color: C.indigo }}>Laxmi Textiles</div>*/}
+          <div style={{ fontSize: 11.5, color: C.slate, letterSpacing: 0.5, marginTop: 0.5,fontWeight: 'bold' }}>STORE MANAGEMENT SYSTEM</div>
         </div>
 
         {!role && (
           <>
-            <div style={{ fontSize: 12.5, color: C.slate, marginBottom: 10 }}>Select your role to continue</div>
+            <div style={{ fontSize: 12.5, color: C.slate, marginBottom: 1 }}>Select your role to continue</div>
             <div style={{ display: "grid", gap: 8 }}>
               {Object.keys(LOGIN_DIRECTORY).map(r => {
                 const Icon = roleIcons[r];
@@ -289,7 +300,18 @@ export default function App() {
 
       <div style={{ width: 232, background: C.indigo, color: "#F3EEE3", padding: "20px 14px", display: "flex", flexDirection: "column", gap: 4, position: "sticky", top: 0, height: "100vh" }}>
         <div style={{ padding: "0 8px 16px 8px" }}>
-          <div style={{ fontFamily: serif, fontSize: 20, fontWeight: 700 }}>Laxmi Textiles</div>
+          <img 
+            src="src/logo_LT.jpg" 
+            alt="Laxmi Textiles Logo" 
+            style={{ 
+              width: 150, 
+              height: 150, 
+              objectFit: "contain", 
+              margin: "0 auto 12px auto", 
+              display: "block" 
+            }} 
+          />
+          {/*<div style={{ fontFamily: serif, fontSize: 20, fontWeight: 700 }}>Laxmi Textiles</div>*/}
           <div style={{ fontSize: 10.5, opacity: 0.65, marginTop: 2, letterSpacing: 0.4 }}>INVENTORY LEDGER</div>
         </div>
 
